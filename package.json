@@ -2,15 +2,18 @@
   "name": "chaiaurbackend",
   "version": "1.0.0",
   "description": "A full stack web application",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
-    "Javascripts",
     "backend",
     "joint"
   ],
   "author": "Muhammad Anees",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
 }
